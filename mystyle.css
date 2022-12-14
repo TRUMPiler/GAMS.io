@@ -1,0 +1,91 @@
+textarea
+{
+        border: 1px solid black;
+    border-radius: 0px;     
+     /* padding:30px; */
+    /* color:red; */
+    background-color: white;
+    /* text-align: left; */
+    resize: none;
+}
+input[type=text]
+{
+    margin-top: auto;
+    color:grey;
+    background: grey;
+    padding: 20px;
+    border-radius: 6px;
+    size-adjust: 10px;
+    font-size: larger;
+}
+img{
+    object-fit:fill;
+    border-radius: 50%;
+}
+body
+{
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+    /* border-radius: 360px; */
+    background-size: contain;
+
+    /* border: 1px solid black; */
+    background-image: url(https://render.fineartamerica.com/images/images-profile-flow/400/images/artworkimages/mediumlarge/2/march-rainbow-silvia-vassileva.jpg);
+}
+label
+{
+    font-family: monospace;
+    font-size: large;
+}
+input[type=submit]
+{
+    background: rgb(68, 236, 68);
+    color:white;
+    padding:2px;
+    margin: auto;
+    border-radius: 7px;
+}
+table
+{
+    /* border: 1px dotted black; */
+    /* padding :10px; */
+   border-collapse: collapse;
+}
+td,th
+{
+    border: 1px dotted black;
+    border-radius: 1px;
+    color:black ;
+    font-family: monospace;
+    /* text-align: center;    */
+    /* size:15px; */
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+tr:nth-child(even)
+{
+    background-color: coral;
+    /* size: 10px; */
+    margin:10cm;
+}
+#solid
+{
+font-style:normal;
+}
+
+#naishal
+{
+    background-color:  black;
+    color: red;
+    text-align: center ;
+    width: 100%;
+}
+
+#address
+{
+    text-align:start;
+}
